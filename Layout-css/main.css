@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+#wrappar {
+  max-width: 960px;
+  margin: 0px auto;
+}
+#header {
+  background: red;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#main-content {
+  display: flex;
+  min-height: 500px;
+}
+#content {
+  flex-basis: 70%;
+}
+#sidebar {
+  flex-basis: 30%;
+}
+
+#footer {
+  background: gray;
+  padding: 15px;
+}
