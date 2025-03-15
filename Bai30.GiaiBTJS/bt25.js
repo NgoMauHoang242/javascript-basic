@@ -50,7 +50,9 @@ while (true) {
     if (countLogin < 5) {
       alert("Bạn đã nhập sai pass, số lần thử: " + countLogin + "/5");
     } else {
-      alert("Bạn đã thử 5 lần, tài khoản của bạn sẽ bị block, liên hệ admin");
+      alert(
+        "Bạn đã thử 5 lần, tài khoản của bạn sẽ bị block, liên hệ admin để đút tay 5 lốp mở cửa"
+      );
       break;
     }
   }
